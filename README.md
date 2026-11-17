@@ -102,3 +102,20 @@ Implementation instructions will be added as the MVP is built. The initial repos
 ## License
 
 No license has been selected yet. Until one is added, all rights are reserved by the author.
+
+## Publish to GitHub
+
+The local Git repository is initialized on the `main` branch. To publish it:
+
+1. Create an empty **public** repository named `tripops-ai` under your GitHub account. Do not initialize it with a README, license, or `.gitignore`.
+2. From this project directory, run:
+
+   ```bash
+   git remote add origin https://github.com/rayayush7204-ctrl/tripops-ai.git
+   git push -u origin main
+   ```
+
+3. After the push succeeds, the repository URL will be:
+   `https://github.com/rayayush7204-ctrl/tripops-ai`
+
+The URL above is the intended destination; it is not a live repository until you create it on GitHub and push this local repository.
